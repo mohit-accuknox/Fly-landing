@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <section className="flex justify-around items-center p-7 font-semibold">
+      <section className="flex justify-around items-center p-7 font-semibold ">
         <h1 className="cursor-pointer text-white text-3xl">Fly.io</h1>
         <ul className="flex items-start gap-10">
           <li>
