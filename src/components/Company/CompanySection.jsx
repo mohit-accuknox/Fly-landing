@@ -5,8 +5,8 @@ const CompanySection = () => {
     <div>
       <section className="flex justify-center items-center p-10">
         <section className="flex justify-between items-center gap-20 w-full m-8">
-          <ul className="flex justify-evenly items-center w-full">
-            <li><img src="images/cars.png" alt="" className="w-32" /></li>
+          <ul className="flex justify-evenly items-center w-full sm:flex-wrap sm:gap-8">
+            <li><img src="images/cars.png" alt="" className="w-32 sm:w-24" /></li>
             <li className="text-lg font-medium flex justify-center items-center gap-3"> <img src="images/supabase.png" alt="" className="w-16" /> Supabase</li>
             <li><img
             src="images/fanatics.png"

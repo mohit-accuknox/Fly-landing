@@ -3,7 +3,7 @@ import React from "react";
 const FeatureSection = () => {
   return (
     <div>
-      <section className="flex justify-center items-center p-20">
+      <section className="flex justify-center items-center p-20 sm:p-10">
         <section className="flex justify-center items-center flex-col gap-12">
           <div className="flex justify-center items-start flex-col gap-3 w-full">
             <h3 className="text-l text-violet-500 uppercase font-semibold">
@@ -21,24 +21,24 @@ const FeatureSection = () => {
               Read More
             </button>
           </div>
-          <div className="flex justify-center items-start flex-col w-full gap-8">
+          <div className="flex justify-center items-start flex-col w-full gap-8 sm:mb-14">
             <h3 className="uppercase text-lg font-semibold text-violet-500">hot-n-ready favorites</h3>
-            <div className="flex justify-between items-center flex-wrap gap-10 ">
-                <ul className="flex justify-center items-start flex-col gap-4 w-2/5">
-                    <li className="text-lg flex justify-center items-center gap-2 font-semibold text-black"><img src="images/tick.png" alt="" className="w-12"/> CPU,Memory, and Storage on Tap</li>
-                    <li className="w-10/12 text-lg text-gray-600 font-medium">Provision exactly what you need to make yours apps fly. Pay only for what you use.</li>
+            <div className="flex justify-between items-center flex-wrap gap-10 sm:flex-col sm:items-start">
+                <ul className="flex justify-center items-start flex-col gap-4 w-2/5 sm:w-full ">
+                    <li className="text-lg flex justify-center items-center gap-2 font-semibold sm:items-start text-black"><img src="images/tick.png" alt="" className="w-12 sm:hidden"/> CPU,Memory, and Storage on Tap</li>
+                    <li className="w-10/12 text-lg text-gray-600 font-medium sm:w-full">Provision exactly what you need to make yours apps fly. Pay only for what you use.</li>
                 </ul>
-                <ul className="flex justify-center items-start flex-col gap-4 w-2/5">
-                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12"/> Batteries Included Networking</li>
-                    <li className="w-10/12 text-lg text-gray-600 font-medium">Zero configuration private networking and global load balancing.</li>
+                <ul className="flex justify-center items-start flex-col gap-4 w-2/5 sm:w-full">
+                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12 sm:hidden"/> Batteries Included Networking</li>
+                    <li className="w-10/12 text-lg text-gray-600 font-medium sm:w-full">Zero configuration private networking and global load balancing.</li>
                 </ul>
-                <ul className="flex justify-center items-start flex-col gap-4 w-2/5">
-                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12"/> Metrics and Alerting</li>
-                    <li className="w-10/12 text-lg text-gray-600 font-medium">The plumbing you need to sleep at night. Pretty graphs for morning coffee.</li>
+                <ul className="flex justify-center items-start flex-col gap-4 w-2/5 sm:w-full">
+                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12 sm:hidden"/> Metrics and Alerting</li>
+                    <li className="w-10/12 text-lg text-gray-600 font-medium sm:w-full">The plumbing you need to sleep at night. Pretty graphs for morning coffee.</li>
                 </ul>
-                <ul className="flex justify-center items-start flex-col gap-4 w-2/5">
-                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12"/> SSL At Any Scale</li>
-                    <li className="w-10/12 text-lg text-gray-600 font-medium">Add certificates for your own purposes, or a million for your customers.</li>
+                <ul className="flex justify-center items-start flex-col gap-4 w-2/5 sm:w-full">
+                    <li className="text-lg flex justify-center items-center gap-2  font-semibold text-black"><img src="images/tick.png" alt="" className="w-12 sm:hidden"/> SSL At Any Scale</li>
+                    <li className="w-10/12 text-lg text-gray-600 font-medium sm:w-full">Add certificates for your own purposes, or a million for your customers.</li>
                 </ul>
             </div>
           </div>

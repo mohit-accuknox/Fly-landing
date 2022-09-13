@@ -7,18 +7,18 @@ const HeaderSection = () => {
       <section className="header bg-slate-900 flex justify-center flex-col">
         <Navbar />
         <section
-          className="flex justify-center items-start flex-col gap-10 m-14 w-4/5 mx-auto p-7 mb-20
+          className="flex justify-center items-start flex-col gap-10 m-14 w-4/5 mx-auto p-7 sm:p-2 mb-20
         "
         >
-          <div className="flex justify-center items-start flex-col gap-3">
-            <h2 className="text-violet-500 text-5xl font-medium">
+          <div className="flex justify-center items-start flex-col gap-3 sm:gap-7">
+            <h2 className="text-violet-500 text-5xl font-medium sm:text-3xl">
               Deploy App Servers
             </h2>
-            <h2 className="text-white text-4xl font-medium">
+            <h2 className="text-white text-4xl font-medium sm:text-2xl">
               Close to Your Users
             </h2>
           </div>
-          <p className="text-gray-400 text-xl w-2/5 font-medium">
+          <p className="text-gray-400 text-xl w-2/5 font-medium sm:w-full">
             Run your full stack apps (and databases!) all over the world. No ops
             required
           </p>

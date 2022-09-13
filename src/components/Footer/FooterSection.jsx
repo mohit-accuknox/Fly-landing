@@ -4,8 +4,8 @@ const FooterSection = () => {
   return (
     <div>
         <footer className="flex justify-center items-center flex-col gap-10 bg-gray-900 p-10">
-            <section className="flex justify-between items-start text-gray-400 font-medium w-full p-5">
-                <ul>
+            <section className="flex justify-between items-start text-gray-400 font-medium w-full p-5 sm:flex-wrap sm:gap-14">
+                <ul className="sm:w-full sm:mb-10">
                     <li className="text-2xl font-medium text-white">Fly.io</li>
                 </ul>
                 <ul className="flex justify-center items-start flex-col gap-2">
